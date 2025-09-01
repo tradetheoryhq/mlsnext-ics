@@ -1,0 +1,12 @@
+{
+  "name": "mlsnext-ics",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "node scrape-and-build-ics.mjs"
+  },
+  "dependencies": {
+    "ics": "^3.8.1",
+    "playwright": "^1.47.0"
+  }
+}
